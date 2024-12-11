@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ShoppingBag, Sun, Moon, User } from 'lucide-react'; // Import the icon
+import { ShoppingBag, Sun, Moon, User } from 'lucide-react'; // Import the user icon
 import SearchBar from './components/SearchBar';
 import ProductGrid from './components/ProductGrid';
 import ChatBot from './components/ChatBot';
