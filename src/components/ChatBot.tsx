@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { MessageCircle, X, Send } from 'lucide-react';
+import { MessageCircle, MinusCircle, Send } from 'lucide-react';
 import { ChatService } from '../services/chat.service';
 
 interface Message {
@@ -116,7 +116,7 @@ export default function ChatBot() {
           <div className="p-4 bg-blue-600 text-white rounded-t-lg flex justify-between items-center">
             <span className="font-semibold text-lg">Conversational Search</span>
             <button onClick={() => setIsOpen(false)}>
-              <X className="h-5 w-5" />
+              <MinusCircle className="h-5 w-5" />
             </button>
           </div>
 
